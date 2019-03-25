@@ -9,7 +9,7 @@ For the purpose of the  Barcelona hackathon this will need to update the electri
 For this we will need to following:
 * Function to query exiobase rdf data and turn it into supply use tables. (main work)
 * Function to query electricity mix rdf data. 
-* Function to map/aggregate the regional electricity data to the exiobase region classification.
+* Function to map/aggregate the regional electricity data to the exiobase region/activity/unit name classification.
 * Function to insert updated electricity mix information into the the SUTs
 * Function (wrapper) to give user options which constructs to apply to turn the SUTs into an A matrix. 
 * Function to write the A-matrix to the rdf database.
