@@ -1,0 +1,3 @@
+[console_scripts]
+mojo-cli = mojo.bin.mojo_cli:main
+

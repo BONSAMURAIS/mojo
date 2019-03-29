@@ -1,0 +1,6 @@
+appdirs
+docopt
+os
+numpy
+pandas
+pysut
