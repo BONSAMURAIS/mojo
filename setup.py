@@ -57,7 +57,7 @@ setup(
     ],
     url="https://github.com/BONSAMURAIS/mojo",
     long_description=open('README.md').read(),
-    description='your_name_here',
+    description='Stefano Merciai & Arthur Jakobs',
     classifiers=[
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: Developers',
