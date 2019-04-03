@@ -1,0 +1,16 @@
+2019-04-03 19:27:17,388 - BONSAI hackathon system model MOJO 1.0 - INFO - USER: jakobs
+2019-04-03 19:27:17,389 - BONSAI hackathon system model MOJO 1.0 - INFO - PROJECT NAME: BONSAI hackathon system model MOJO 1.0
+2019-04-03 19:27:17,389 - BONSAI hackathon system model MOJO 1.0 - INFO - Logging function called by: system_model.py 
+ with full path /home/jakobs/Documents/IndEcol/BONSAI/mojo/mojo/system_model.py
+2019-04-03 19:27:17,389 - BONSAI hackathon system model MOJO 1.0 - INFO - get_sut - Reading in V from: /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/exiobase_hsut_3317/MR_HSUP_2011_v3_3_17_bonsai.csv
+2019-04-03 19:27:26,595 - BONSAI hackathon system model MOJO 1.0 - INFO - get_sut - Reading in U from: /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/exiobase_hsut_3317/MR_HUSE_2011_v3_3_17_bonsai.csv
+2019-04-03 19:27:40,645 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregated_product_names - Loading aggregated product names from /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/exiobase_hsut_3317/Classifications_v_3_3_17_IOTnames.csv
+2019-04-03 19:27:40,663 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Reading aggregation matrix from /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/exiobase_hsut_3317/aggregation_matrix_exiobase.csv
+2019-04-03 19:27:40,681 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Reading colorific values from /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/exiobase_hsut_3317/Calorific_values.csv
+2019-04-03 19:27:40,688 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Number of regions: 48
+2019-04-03 19:27:40,688 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Number of products before aggregation: 200
+2019-04-03 19:27:40,688 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Number of sectors is 164
+2019-04-03 19:27:40,688 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Number of products after aggregation: 164
+2019-04-03 19:27:40,711 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Inserting calorific values for Manufacture of gas;
+2019-04-03 19:27:42,494 - BONSAI hackathon system model MOJO 1.0 - INFO - get_aggregation_matrix - Aggregation report written to /home/jakobs/Documents/IndEcol/BONSAI/mojo/data/output/aggregation_report.csv
+2019-04-03 19:28:16,516 - BONSAI hackathon system model MOJO 1.0 - INFO - aggregate - Succesfully aggregated supply and use tables.

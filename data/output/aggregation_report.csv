@@ -1,0 +1,2020 @@
+# Agrgegation report 
+# The Following industries were aggregated usingcaloric values: 
+# Manufacure of Gas 
+Country code|Industry name|Industry code 1|Industry code 2|Number of products to be aggregated|Product name|Product code 1|Product code 2|Aggregation Value|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+AU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+AU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+AU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+AU|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+AU|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+AU|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+AU|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+AU|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+AU|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+AU|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+AU|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+AU|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+AU|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+AT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+AT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+AT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+AT|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+AT|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+AT|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+AT|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+AT|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+AT|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+AT|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+AT|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+AT|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+AT|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+BE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+BE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+BE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+BE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+BE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+BE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+BE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+BE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+BE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+BE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+BE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+BE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+BE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+BR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+BR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+BR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+BR|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+BR|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+BR|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+BR|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+BR|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+BR|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+BR|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+BR|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+BR|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+BR|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+BG|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+BG|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+BG|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+BG|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+BG|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+BG|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+BG|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+BG|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+BG|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+BG|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+BG|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+BG|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+BG|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+CA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+CA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+CA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+CA|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+CA|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+CA|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+CA|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+CA|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+CA|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+CA|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+CA|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+CA|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+CA|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+CN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+CN|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+CN|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+CN|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+CN|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+CN|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+CN|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+CN|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+CN|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+CN|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+CN|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+CN|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+CN|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+CY|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+CY|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+CY|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+CY|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+CY|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+CY|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+CY|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+CY|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+CY|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+CY|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+CY|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+CY|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+CY|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+CZ|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+CZ|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+CZ|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+CZ|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+CZ|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+CZ|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+CZ|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+CZ|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+CZ|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+CZ|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+CZ|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+CZ|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+CZ|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+DK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+DK|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+DK|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+DK|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+DK|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+DK|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+DK|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+DK|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+DK|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+DK|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+DK|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+DK|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+DK|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+EE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+EE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+EE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+EE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+EE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+EE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+EE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+EE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+EE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+EE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+EE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+EE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+EE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+FI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+FI|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+FI|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+FI|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+FI|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+FI|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+FI|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+FI|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+FI|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+FI|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+FI|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+FI|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+FI|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+FR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+FR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+FR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+FR|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+FR|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+FR|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+FR|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+FR|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+FR|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+FR|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+FR|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+FR|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+FR|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+DE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+DE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+DE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+DE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+DE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+DE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+DE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+DE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+DE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+DE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+DE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+DE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+DE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+GR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+GR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+GR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+GR|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+GR|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+GR|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+GR|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+GR|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+GR|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+GR|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+GR|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+GR|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+GR|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+HU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+HU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+HU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+HU|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+HU|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+HU|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+HU|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+HU|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+HU|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+HU|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+HU|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+HU|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+HU|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+IN|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+IN|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+IN|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+IN|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+IN|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+IN|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+IN|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+IN|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+IN|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+IN|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+IN|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+IN|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+IN|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+ID|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+ID|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+ID|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+ID|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+ID|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+ID|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+ID|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+ID|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+ID|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+ID|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+ID|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+ID|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+ID|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+IE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+IE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+IE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+IE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+IE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+IE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+IE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+IE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+IE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+IE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+IE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+IE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+IE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+IT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+IT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+IT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+IT|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+IT|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+IT|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+IT|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+IT|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+IT|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+IT|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+IT|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+IT|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+IT|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+JP|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+JP|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+JP|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+JP|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+JP|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+JP|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+JP|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+JP|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+JP|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+JP|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+JP|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+JP|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+JP|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+LV|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+LV|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+LV|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+LV|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+LV|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+LV|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+LV|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+LV|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+LV|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+LV|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+LV|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+LV|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+LV|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+LT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+LT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+LT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+LT|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+LT|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+LT|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+LT|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+LT|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+LT|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+LT|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+LT|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+LT|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+LT|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+LU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+LU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+LU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+LU|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+LU|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+LU|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+LU|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+LU|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+LU|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+LU|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+LU|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+LU|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+LU|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+MT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+MT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+MT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+MT|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+MT|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+MT|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+MT|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+MT|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+MT|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+MT|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+MT|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+MT|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+MT|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+MX|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+MX|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+MX|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+MX|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+MX|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+MX|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+MX|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+MX|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+MX|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+MX|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+MX|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+MX|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+MX|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+NL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+NL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+NL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+NL|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+NL|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+NL|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+NL|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+NL|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+NL|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+NL|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+NL|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+NL|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+NL|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+NO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+NO|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+NO|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+NO|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+NO|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+NO|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+NO|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+NO|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+NO|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+NO|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+NO|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+NO|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+NO|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+PL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+PL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+PL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+PL|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+PL|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+PL|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+PL|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+PL|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+PL|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+PL|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+PL|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+PL|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+PL|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+PT|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+PT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+PT|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+PT|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+PT|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+PT|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+PT|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+PT|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+PT|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+PT|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+PT|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+PT|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+PT|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+RO|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+RO|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+RO|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+RO|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+RO|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+RO|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+RO|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+RO|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+RO|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+RO|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+RO|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+RO|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+RO|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+RU|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+RU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+RU|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+RU|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+RU|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+RU|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+RU|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+RU|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+RU|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+RU|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+RU|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+RU|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+RU|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+SK|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+SK|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+SK|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+SK|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+SK|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+SK|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+SK|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+SK|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+SK|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+SK|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+SK|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+SK|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+SK|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+SI|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+SI|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+SI|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+SI|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+SI|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+SI|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+SI|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+SI|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+SI|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+SI|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+SI|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+SI|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+SI|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+ZA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+ZA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+ZA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+ZA|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+ZA|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+ZA|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+ZA|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+ZA|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+ZA|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+ZA|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+ZA|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+ZA|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+ZA|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+KR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+KR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+KR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+KR|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+KR|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+KR|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+KR|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+KR|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+KR|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+KR|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+KR|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+KR|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+KR|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+ES|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+ES|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+ES|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+ES|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+ES|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+ES|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+ES|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+ES|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+ES|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+ES|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+ES|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+ES|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+ES|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+SE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+SE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+SE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+SE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+SE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+SE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+SE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+SE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+SE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+SE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+SE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+SE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+SE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+CH|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+CH|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+CH|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+CH|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+CH|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+CH|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+CH|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+CH|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+CH|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+CH|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+CH|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+CH|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+CH|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+TW|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+TW|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+TW|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+TW|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+TW|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+TW|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+TW|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+TW|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+TW|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+TW|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+TW|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+TW|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+TW|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+TR|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+TR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+TR|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+TR|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+TR|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+TR|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+TR|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+TR|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+TR|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+TR|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+TR|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+TR|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+TR|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+GB|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+GB|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+GB|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+GB|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+GB|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+GB|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+GB|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+GB|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+GB|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+GB|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+GB|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+GB|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+GB|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+US|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+US|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+US|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+US|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+US|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+US|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+US|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+US|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+US|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+US|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+US|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+US|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+US|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+WA|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+WA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+WA|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+WA|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+WA|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+WA|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+WA|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+WA|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+WA|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+WA|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+WA|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+WA|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+WA|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+WL|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+WL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+WL|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+WL|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+WL|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+WL|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+WL|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+WL|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+WL|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+WL|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+WL|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+WL|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+WL|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+WE|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+WE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+WE|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+WE|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+WE|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+WE|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+WE|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+WE|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+WE|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+WE|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+WE|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+WE|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+WE|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+WF|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+WF|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+WF|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+WF|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+WF|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+WF|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+WF|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+WF|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+WF|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+WF|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+WF|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+WF|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+WF|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Anthracite|p10.a|C_ANTH|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Coking Coal|p10.b|C_COKC|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Other Bituminous Coal|p10.c|C_OTBC|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Sub-Bituminous Coal|p10.d|C_SUBC|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Patent Fuel|p10.e|C_PATF|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Lignite/Brown Coal|p10.f|C_LIBC|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|BKB/Peat Briquettes|p10.g|C_BKBP|1.0|
+WM|Mining of coal and lignite; extraction of peat (10)|i10|A_COAL|8|Peat|p10.h|C_PEAT|1.0|
+WM|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural gas and services related to natural gas extraction, excluding surveying|p11.b|C_GASE|1.0|
+WM|Extraction of natural gas and services related to natural gas extraction, excluding surveying|i11.b|A_GASE|2|Natural Gas Liquids|p11.b.1|C_GASL|1.0|
+WM|Manufacture of coke oven products|i23.1|A_COKE|3|Coke Oven Coke|p23.1.a|C_COKE|1.0|
+WM|Manufacture of coke oven products|i23.1|A_COKE|3|Gas Coke|p23.1.b|C_GCOK|1.0|
+WM|Manufacture of coke oven products|i23.1|A_COKE|3|Coal Tar|p23.1.c|C_COTA|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Motor Gasoline|p23.20.a|C_MGSL|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Aviation Gasoline|p23.20.b|C_AGSL|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Gasoline Type Jet Fuel|p23.20.c|C_GJET|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Kerosene Type Jet Fuel|p23.20.d|C_KJET|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Kerosene|p23.20.e|C_KERO|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Gas/Diesel Oil|p23.20.f|C_DOIL|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Heavy Fuel Oil|p23.20.g|C_FOIL|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Refinery Gas|p23.20.h|C_RGAS|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Liquefied Petroleum Gases (LPG)|p23.20.i|C_LPGA|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Refinery Feedstocks|p23.20.j|C_REFF|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Ethane|p23.20.k|C_ETHA|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Naphtha|p23.20.l|C_NAPT|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|White Spirit & SBP|p23.20.m|C_WHSP|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Lubricants|p23.20.n|C_LUBR|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Bitumen|p23.20.o|C_BITU|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Paraffin Waxes|p23.20.p|C_PARW|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Petroleum Coke|p23.20.q|C_PETC|1.0|
+WM|Petroleum Refinery|i23.2|A_REFN|18|Non-specified Petroleum Products|p23.20.r|C_NSPP|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Chemicals nec|p24.d|C_CHEM|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Charcoal|p24.e|C_CHAR|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Additives/Blending Components|p24.f|C_ADDC|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Biogasoline|p24.g|C_BIOG|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Biodiesels|p24.h|C_BIOD|1.0|
+WM|Chemicals nec|i24.4|A_CHEM|6|Other Liquid Biofuels|p24.i|C_OBIO|1.0|
+WM|Manufacture of gas;|i40.2.a|A_MGWG|5|Coke oven gas|p40.2.a|C_COOG|0.8062499999999999|
+WM|Manufacture of gas;|i40.2.a|A_MGWG|5|Blast Furnace Gas|p40.2.b|C_MBFG|0.051458333333333335|
+WM|Manufacture of gas;|i40.2.a|A_MGWG|5|Oxygen Steel Furnace Gas|p40.2.c|C_MOSG|0.14708333333333332|
+WM|Manufacture of gas;|i40.2.a|A_MGWG|5|Gas Works Gas|p40.2.d|C_MGWG|0.8062499999999999|
+WM|Manufacture of gas;|i40.2.a|A_MGWG|5|Biogas|p40.2.e|C_MBIO|1.05|
