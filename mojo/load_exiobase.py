@@ -68,6 +68,6 @@ def get_aggregated_product_names(path_name, prod_name_file, logger):
     for i,prod in enumerate(products['Product name'].values):
         prod_dic[prod] = i
     
-    return agg_names, country_dic, prod_dic
+    return agg_names, country_dic, prod_dic, country_list
 
 
