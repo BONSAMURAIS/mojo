@@ -38,19 +38,46 @@ def system_model(config,logger,log_dir):
                                   'aggregation_report_file'), logger)
     exio_vagg, exio_uagg = agg.aggregate(exio_v, exio_u, aggregation_matrix,
                                          logger)
+    V_without_elec, U_without_elec, V_elecmarkets, U_elecmarkets,\
+           elec_martket_product_supply, elec_martket_product_use =\
+           create_electricity_grids(exio_vagg, exio_uagg, N_reg,
+                                    N_sec, iot_names)
+
     
+
     #check if for the existence of exclusive byproducts
-def get_exclusive_byproducts(v,u,N_regions, product_names):
+def get_exclusive_byproducts(v,u,N_regions, product_names, logger):
+    """Function checks for exclusive byproducts and returns them in an
+    array.
+    Input:
+    v               : numpy array containing the supply table
+    u               : numpy array containing the use table
+    N_regions       : number of regions in the MRIO
+    product_names   : Pandas dataframe with the product names in the aggregated
+                      SUTs.
+
+    Output:
+    excl_byprod_names   :   numpy array with a list of exclusive by products
+                            The same product miight show up multiple times but
+                            for different regions
+    """
+    _name = get_exclusive_byproducts.__name__ #function name for logging
+    logger.info(LogMessage(_name, 'Checking for exclusive by products'))
     SUT_obj = pysut.SupplyUseTable(V=v, U=u, regions=N_reg)
     supply_diag_check_eval = SUT_obj.supply_diag_check()
     excl_byprod_names = product_names.values[supply_diag_check_eval[:,2]==1,:]
+    if len(excl_byprod_names) == 0:
+        logger.info(LogMessage(_name,'No exclusive byproducts found'))
+    else:
+        logger.info(LogMessage(_name, 'Found total of {} instances of an'\
+                                      'exclusive byproduct'))
     return excl_byprod_names
 
-def create_market_and_product_names(prod_names, N_reg, Reg_list):
+def create_market_and_product_names(prod_names, N_reg, Reg_list, logger):
     """Create market names, and product names.
     Input:
     prod_names      :   array of exclusive byproducts (this should include at
-                        at least one electricity byproduct e.g. electricity 
+                        at least one electricity byproduct e.g. electricity
                         from coal (as byproduct from heat from coal).
     N_reg           :   number of regions in the MRIO system
     
@@ -91,7 +118,7 @@ def create_market_and_product_names(prod_names, N_reg, Reg_list):
     market_name_indices = np.unique(market_names[:,1], return_index=True)[-1]
     market_names = market_names[market_name_indices]
     #split the markets into exclusive byproduct markets and electricity markets
-    elec_markets = np.array([x for x in market_names if x[2]=='m40.11']*N_reg).
+    elec_markets = np.array([x for x in market_names if x[2]=='m40.11']*N_reg).\
                                                                 reshape(N_reg,5)
     elec_markets[:,0] = Reg_list
     market_names = np.delete(market_names,
@@ -108,7 +135,52 @@ def create_market_and_product_names(prod_names, N_reg, Reg_list):
     return excl_byproducts, market_names, grid_electricity, elec_markets
 
 
-def create_electricity_grid():
+def create_electricity_grids(exio_vagg, exio_uagg, N_reg, N_prod, iot_names,
+                             logger):
+    _name = create_electricity_grids.__name__ #function name for logging
+    logger.info(LogMessage(_name, 'Creating electricity grid for the {}\
+                                   regions'.format(N_reg)))
+    U_without_elec = exio_uagg.copy()
+    V_without_elec = exio_vagg.copy()
+    diag_dummy_indices = np.arange(V_without_elec.shape[0])
+    V_without_elec[diag_dummy_indices, diag_dummy_indices] = 0 #set to zero for
+    #principle production so we can sum off diagonal electricity
+    
+    V_elecmarkets = np.zeros(N_reg) #These are the totals of the
+    #electricity used in a country, as this is the total that a national grid
+    #will provide. Format is (N_reg x 1), will be diagonalized in
+    #final V' table
+    U_elecmarkets = np.zeros((exio_uagg.shape[0],N_reg)) #This
+    #defines the electricity mix in a national grid. This will be updated with
+    #entso data. Format (N_prod*N_reg x N_reg)
+    elec_indices = iot_names['Product code 1'].str.contains('p40.11').values
+    #boolean array with the electricity commodities
+    elec_martket_product_use = np.zeros((N_reg, exio_uagg.shape[0])) #The input
+    #vector for grid electricity for the different activities, as they now draw
+    #from the grid instead of directly from producers.
+    #Format (N_reg, N_reg*N_products+N_reg)
+    elec_martket_product_supply = np.zeros((N_reg, exio_uagg.shape[0]))
+    
+    for i in range(N_reg): #loop over countries
+        U_elecmarkets[elec_indices,i] = exio_uagg[elec_indices,
+                                           i*N_prod:i*N_prod+N_prod].sum(axis=1)
+        V_elecmarkets[i] = U_elecmarkets[elec_indices,i].sum()
+        elec_martket_product_use[i,i*N_prod:i*N_prod+N_prod] = exio_uagg[
+                              elec_indices,i*N_prod:i*N_prod+N_prod].sum(axis=0)
+        elec_martket_product_supply[i,i*N_prod:i*N_prod+N_prod] =\
+               V_without_elec[elec_indices,i*N_prod:i*N_prod+N_prod].sum(axis=0)
+        V_without_elec[elec_indices,i*N_prod:i*N_prod+N_prod] = 0
+    
+    V_without_elec[diag_dummy_indices, diag_dummy_indices] = exio_vagg[
+                                         diag_dummy_indices, diag_dummy_indices]
+    U_without_elec[elec_indices,:] = 0 #is the new partial Use table where
+    #electricity use from producers has been set to 0
+    return V_without_elec, U_without_elec, V_elecmarkets, U_elecmarkets,\
+           elec_martket_product_supply, elec_martket_product_use
+
+def create_excl_byprod_markets(v,u,):
+
+
 
 def ParseArgs():
     '''
@@ -120,8 +192,8 @@ def ParseArgs():
 
 
     parser.add_argument("-c", "--config", type=str, dest='config_file',
-                        default='./ConfigFile.ini', help='path to the\
-                        configuration file. Default file script folder.')
+                        default='./ConfigFile.ini', help='path to the'\
+                        'configuration file. Default file script folder.')
 
     parser.add_argument("--cc", dest="copy_config", action="store_true",
                         help="If True saves the config file to the log dir")
