@@ -18,6 +18,8 @@ def aggregate(v,u,aggregation_matrix, logger):
     vagg    : aggregated supply table (products x industries)
     uagg    : aggregated use table (products x industries)
     """
+    logger.info(LogMessage(aggregate.__name__,
+                'Aggregating supply and use tables...'))
     vagg = aggregation_matrix.T.dot(v)
     uagg = aggregation_matrix.T.dot(v)
     logger.info(LogMessage(aggregate.__name__,
@@ -114,7 +116,7 @@ def get_aggregation_matrix(path_name, agg_file, cal_file,
     logger.info(LogMessage(_name, 'Aggregation report written to {}'.format(
                                os.path.join(agg_report_path, agg_report_file))))
     
-    return new_aggregation_matrix
+    return new_aggregation_matrix, N_reg, N_prod, N_sec
 
 
 

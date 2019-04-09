@@ -21,6 +21,9 @@ def system_model(config,logger,log_dir):
     '''
     Function description
     '''
+    _name = system_model.__name__ #name for logging
+    logger.info(LogMessage(_name, 'Starting the system model.'))
+
     exio_v, exio_u = load_exiobase.get_sut(config.get('exio_data','ddir'),
                                    config.get('exio_data','supply'),
                                    config.get('exio_data','use'), logger)
@@ -30,7 +33,7 @@ def system_model(config,logger,log_dir):
                                  config.get('exio_data', 'aggregated_names'),
                                  logger)
     
-    aggregation_matrix = agg.get_aggregation_matrix(
+    aggregation_matrix, N_reg, N_prod, N_sec = agg.get_aggregation_matrix(
                                   config.get('exio_data','ddir'),
                                   config.get('exio_data','aggregation_matrix'),
                                   config.get('exio_data','calvals_matrix'),
@@ -38,15 +41,40 @@ def system_model(config,logger,log_dir):
                                   'aggregation_report_file'), logger)
     exio_vagg, exio_uagg = agg.aggregate(exio_v, exio_u, aggregation_matrix,
                                          logger)
-    V_without_elec, U_without_elec, V_elecmarkets, U_elecmarkets,\
-           elec_martket_product_supply, elec_martket_product_use =\
-           create_electricity_grids(exio_vagg, exio_uagg, N_reg,
-                                    N_sec, iot_names)
+    all_excl_byprods = get_exclusive_byproducts(exio_vagg, exio_uagg,
+                            N_reg, iot_names, logger)
+    excl_byproducts, market_names, grid_electricity, elec_markets =\
+           create_market_and_product_names(all_excl_byprods, N_reg,
+           country_list, logger)
 
+
+    V_without_elec, U_without_elec, V_elecmarkets, U_elecmarkets,\
+           elec_market_product_supply, elec_market_product_use =\
+           create_electricity_grids(exio_vagg, exio_uagg, N_reg,
+                                    N_sec, iot_names, logger)
+
+    V_markets, U_markets, v_market_excl_byproduct,\
+           u_market_excl_byproduct, excl_market_products_supply,\
+           excl_market_products_use = create_excl_byprod_markets(
+           V_without_elec, U_without_elec, excl_byproducts, prod_dic,
+           country_dic, all_excl_byprods, N_sec, iot_names, logger)
+
+    V_model, U_model = assemble_SUT(V_markets, U_markets,
+                                    V_elecmarkets,
+                                    U_elecmarkets,
+                                    elec_market_product_supply,
+                                    elec_market_product_use,
+                                    v_market_excl_byproduct,
+                                    u_market_excl_byproduct,
+                                    excl_market_products_supply,
+                                    excl_market_products_use,
+                                    logger)
     
+    Z_model, A_model = make_IOT(V_model, U_model, logger)
+
 
     #check if for the existence of exclusive byproducts
-def get_exclusive_byproducts(v,u,N_regions, product_names, logger):
+def get_exclusive_byproducts(v,u,N_reg, product_names, logger):
     """Function checks for exclusive byproducts and returns them in an
     array.
     Input:
@@ -66,11 +94,13 @@ def get_exclusive_byproducts(v,u,N_regions, product_names, logger):
     SUT_obj = pysut.SupplyUseTable(V=v, U=u, regions=N_reg)
     supply_diag_check_eval = SUT_obj.supply_diag_check()
     excl_byprod_names = product_names.values[supply_diag_check_eval[:,2]==1,:]
-    if len(excl_byprod_names) == 0:
+    nr_excl_byprods = len(excl_byprod_names)
+    if nr_excl_byprods == 0:
         logger.info(LogMessage(_name,'No exclusive byproducts found'))
     else:
         logger.info(LogMessage(_name, 'Found total of {} instances of an'\
-                                      'exclusive byproduct'))
+                                      'exclusive byproduct'.format(
+                                      nr_excl_byprods)))
     return excl_byprod_names
 
 def create_market_and_product_names(prod_names, N_reg, Reg_list, logger):
@@ -89,8 +119,11 @@ def create_market_and_product_names(prod_names, N_reg, Reg_list, logger):
     elec_markets    :   Like grid_electricity but now "Market for electricity"
 
     All outputs have the format [['Region', 'Name', 'code 1', 'code 2', 'unit']]
-    where the unit only exists for the products not for the markets. 
+    where the unit only exists for the products not for the markets.
     """
+    _name = create_market_and_product_names.__name__
+    logger.info(LogMessage(_name, 'Creating name arrays for markets and'\
+                                   'and their products'))
     #get a unique list of the product names to create global markets
     unique_prod_indices = np.unique(prod_names[:,1], return_index=True)[-1]
     excl_byproducts = prod_names[unique_prod_indices]
@@ -155,19 +188,19 @@ def create_electricity_grids(exio_vagg, exio_uagg, N_reg, N_prod, iot_names,
     #entso data. Format (N_prod*N_reg x N_reg)
     elec_indices = iot_names['Product code 1'].str.contains('p40.11').values
     #boolean array with the electricity commodities
-    elec_martket_product_use = np.zeros((N_reg, exio_uagg.shape[0])) #The input
+    elec_market_product_use = np.zeros((N_reg, exio_uagg.shape[0])) #The input
     #vector for grid electricity for the different activities, as they now draw
     #from the grid instead of directly from producers.
     #Format (N_reg, N_reg*N_products+N_reg)
-    elec_martket_product_supply = np.zeros((N_reg, exio_uagg.shape[0]))
+    elec_market_product_supply = np.zeros((N_reg, exio_uagg.shape[0]))
     
     for i in range(N_reg): #loop over countries
         U_elecmarkets[elec_indices,i] = exio_uagg[elec_indices,
                                            i*N_prod:i*N_prod+N_prod].sum(axis=1)
         V_elecmarkets[i] = U_elecmarkets[elec_indices,i].sum()
-        elec_martket_product_use[i,i*N_prod:i*N_prod+N_prod] = exio_uagg[
+        elec_market_product_use[i,i*N_prod:i*N_prod+N_prod] = exio_uagg[
                               elec_indices,i*N_prod:i*N_prod+N_prod].sum(axis=0)
-        elec_martket_product_supply[i,i*N_prod:i*N_prod+N_prod] =\
+        elec_market_product_supply[i,i*N_prod:i*N_prod+N_prod] =\
                V_without_elec[elec_indices,i*N_prod:i*N_prod+N_prod].sum(axis=0)
         V_without_elec[elec_indices,i*N_prod:i*N_prod+N_prod] = 0
     
@@ -176,10 +209,109 @@ def create_electricity_grids(exio_vagg, exio_uagg, N_reg, N_prod, iot_names,
     U_without_elec[elec_indices,:] = 0 #is the new partial Use table where
     #electricity use from producers has been set to 0
     return V_without_elec, U_without_elec, V_elecmarkets, U_elecmarkets,\
-           elec_martket_product_supply, elec_martket_product_use
+           elec_market_product_supply, elec_market_product_use
 
-def create_excl_byprod_markets(v,u,):
+def create_excl_byprod_markets(v, u, excl_byproducts, prod_dic, country_dic,
+                               prod_names, N_prod, iot_names, logger):
+    _name = create_excl_byprod_markets.__name__
+    logger.info(LogMessage(_name, 'Creating markets for exclusive byproducts'))
+    v_market_excl_byproduct = np.zeros(len(excl_byproducts)) #create a vector
+    #for the market supply
+    u_market_excl_byproduct = np.zeros((u.shape[0], len(excl_byproducts)))
+    excl_market_products_use = np.zeros((len(excl_byproducts),
+                                        u.shape[0]))
+    excl_market_products_supply = np.zeros((len(excl_byproducts),
+                                            u.shape[0]))
+    
+    U_markets = u.copy() #This will be the final "main" use table (without markets)
+    V_markets = v.copy() #this will be the final "main" supply table without markets
+    
+    for i,excl_prod in enumerate(excl_byproducts):
+        prod_ind = prod_dic[excl_prod[1]]
+        excl_prod_indices = np.where(iot_names.as_matrix()[:,2]==\
+                                excl_byproducts[i,2])[0]
+        u_market_excl_byproduct[excl_prod_indices,i] =\
+                                v[excl_prod_indices,excl_prod_indices]
+        v_market_excl_byproduct[i] = u_market_excl_byproduct[:,i].sum()
 
+        excl_byprod_countries = prod_names[np.where(prod_names[:,2] ==\
+                                excl_prod[2]),0][0]
+        c_index = np.array([country_dic[x] for x in excl_byprod_countries])
+        excl_market_products_use[i,:] =\
+                                u[c_index*N_prod+prod_ind,:].sum(axis=0)
+                                #every acticity that normally buys the product
+                                #from a country where this is only a by product
+                                #now needs to buy this from the market.
+        U_markets[c_index*N_prod+prod_ind,:] = 0 #We then set the use from the
+        #particular countries to 0 as they only buy from the market.
+
+        excl_market_products_supply[i,:] = v[
+            c_index*N_prod+prod_ind,:].sum(axis=0) #We now need to move the
+            #byproduction in these countries to the market. We can simpy sum
+            #over the columns as the production of the other countries in this
+            #country will always be 0 and won't affect the sum
+        V_markets[c_index*N_prod+prod_ind,:] = 0 #as above for the use but now
+        #for the byproduct supply
+    return V_markets, U_markets, v_market_excl_byproduct,\
+           u_market_excl_byproduct, excl_market_products_supply,\
+           excl_market_products_use
+
+def assemble_SUT(v,u,V_elecmarkets,U_elecmarkets,elec_market_product_supply,
+                 elec_market_product_use, v_market_excl_byproduct,
+                 u_market_excl_byproduct, excl_market_products_supply,
+                 excl_market_products_use, logger):
+    #here we assemble everything into one Use and one Supply table
+    _name = assemble_SUT.__name__
+    logger.info(LogMessage(_name, 'Assembling the final SUT...'))
+    exio_dim = v.shape[0]
+    n_elecmarket = len(V_elecmarkets)
+    n_excl_bp = len(v_market_excl_byproduct)
+    full_dimension =exio_dim + n_elecmarket + n_excl_bp
+    
+    U_full = np.zeros((full_dimension,full_dimension))
+    V_full = np.zeros((full_dimension,full_dimension))
+    #first insert the main use and supply tables
+    U_full[:exio_dim,:exio_dim] = u
+    V_full[:exio_dim,:exio_dim] = v
+    
+    #now insert_electricity markets
+    U_full[exio_dim:exio_dim+n_elecmarket,:exio_dim] = elec_market_product_use
+    U_full[:exio_dim,exio_dim:exio_dim+n_elecmarket] = U_elecmarkets
+    V_full[exio_dim:exio_dim+n_elecmarket,:exio_dim] =\
+                                                elec_market_product_supply
+    V_full[exio_dim:exio_dim+n_elecmarket,exio_dim:exio_dim+n_elecmarket] =\
+                                                np.diag(V_elecmarkets)
+    
+    #now insert exclusive byproduct markets
+    U_full[exio_dim+n_elecmarket:,:exio_dim] = excl_market_products_use
+    U_full[:exio_dim,exio_dim+n_elecmarket:] = u_market_excl_byproduct
+    
+    V_full[exio_dim+n_elecmarket:,:exio_dim] = excl_market_products_supply
+    V_full[exio_dim+n_elecmarket:,exio_dim+n_elecmarket:] =\
+                                                np.diag(v_market_excl_byproduct)
+    return V_full, U_full
+
+
+def make_IOT(U, V, logger):
+    """With all the modelling work done, creating the IOT acording to the
+    byproduct techonology construct (or substitution allocation) is simply a
+    matter of substracting the supply from the use table and setting the
+    diagonal to zero.
+    Input:
+    V       :   sqare supply table (product x industry)
+    U       :   sqare use table (product x industry)
+    
+    Output:
+    Z       :   Input-Output table (product x product)
+    A       :   Coefficient matrix to input output table Z
+    """
+    _name = make_IOT.__name__
+    logger.info(LogMessage(_name, 'Constructing IOT from SUT'))
+    Z = U - V + np.diag(np.diag(V))
+    x_dummy = np.diag(V).copy()
+    x_dummy[x_dummy == 0] = 1
+    A = Z/x_dummy
+    return Z, A
 
 
 def ParseArgs():
