@@ -35,7 +35,7 @@ However, the current version of mojo only deals with bullet 1.
 
 A global market of product (GMP) is an activity with outputs and inputs. Inputs consist of all the productions of that specific product by activities. Only principal productions can feed to GMPs. In our example, the global market of gas is fed by the production of natural gas. The output of a GMP is the sum of all the inputs and is defined as product from global market (pGM) (for example, 'gas from the global market'). The output of GMP is used by any activity replacing exclusive by-products. 
 
-However, because exclusive by-products and the substituting principal productions may have different properties, an homogenization is performed. The latter is implemented by mean of conversion coefficients. For example, in the current version of mojo, a gas global market is built that is only fed by natural gas. Therefore, all the gases defined as exclusive by-products are converted into gas by mean of calorific values.
+However, because exclusive by-products and the substituting principal productions may have different properties, an homogenization is performed. The latter is implemented by mean of conversion coefficients. For example, in the current version of mojo, a global market of gas is built which is only fed by natural gas. Therefore, all the gases, which are exclusive by-products, are converted into gas by mean of calorific values.
 
 
 
