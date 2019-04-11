@@ -43,8 +43,11 @@ When building markets, it is important to take into account the properties of pr
 
 ### Integration of ENTSO data: generation of electricity markets
 
-The introduction of national electricity market (NEM) is necessary to integrate the [ENTSO data](https://www.entsoe.eu/data/) into Exiobase. For each country/region of Exiobase, a NEM is built. NEMs can be seen as the national electricity grids, which provide electricity supplied by different power plants, including imported electricity.
+The introduction of *national electricity market* (NEM) is necessary to integrate the [ENTSO data](https://www.entsoe.eu/data/) into Exiobase. For each country/region of Exiobase, a NEM is built. NEMs can be seen as the national electricity grids, which provide electricity supplied by different power plants, including imported electricity.
 In Bonsai NEMs are activities with outputs and inputs. Inputs are directly taken from the ENTO data and output are just the sum of these inputs. The output of electricity market is the electricity from the grid (EfG). Because of the by-product technology assumption, electricity from waste in the ENTSO data is excluded from the inputs to the market. Electricity carried out by waste treatment activities as by-product is assumed to replace the electricity from NEMs. In this way mojo internalizes the electricity from waste tretment in the system model.
 
 Al the activities are assumed to use the electricity from the grid. Therefore the inputs of different types in Exiobase are replaced by an unique input form the grid.
 
+!{Figure2](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Mojo_elec_markets.jpg)
+
+*Figure 2 - ENTSO data incorporated into Exiobase HSUTs
