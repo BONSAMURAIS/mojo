@@ -29,7 +29,7 @@ So, to resume, the Bonsai user may have three choices:
        
 However, the current version of mojo only deals with bullet 1.
 
-### Aggregation and generation of global markets of exclusive by-products (GMPs)
+### Aggregation and generation of global markets for exclusive by-products
 
 [Exiobase HSUTs]( https://doi.org/10.1111/jiec.12713) have a format products by activities (pXa). There are 200 products and 164 activities. The initial step consists of aggregating the rows in order to get squared matrices. Before doing that, exclusive by-products are selected. Given a country, an exclusive by-product is a product carried out as secondary production  and not produced elsewhere as principal production ([determining production](https://consequential-lca.org/glossary/#determining-product)). For example blast furnace gas is a by-product of steel production and it is not produced in any other activity as principal production. In the current version of mojo, a global market is generated for each exclusive by-product. 
 
