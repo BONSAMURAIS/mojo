@@ -37,7 +37,7 @@ A *global market of product* (GMP) is an activity with outputs and inputs. Input
 
 When building markets, it is important to take into account the properties of produts. Indeed exclusive by-products and the substituting principal productions may have different properties, therefore an homogenization must be performed. This is implemented by mean of conversion coefficients. For example, in the current version of mojo a global market of gas is homogenized using calorific values.
 
-![Figure](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Mojo_aggreg_exclusive_BP.jpg)
+![Figure](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Mojo_aggreg_exclusive_BP.jpeg)
 
 *Figure 1 - Generation of global markets for exclusive by-products*
 
