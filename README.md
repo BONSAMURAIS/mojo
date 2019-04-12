@@ -48,6 +48,6 @@ In Bonsai NEMs are activities with outputs and inputs. Inputs are directly taken
 
 Al the activities are assumed to use the electricity from the grid. Therefore the inputs of different types in Exiobase are replaced by an unique input form the grid.
 
-![Figure2](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Mojo_elec_markets.jpg)
+![Figure2](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Entsoe_tables_v1.jpg)
 
 *Figure 2 - ENTSO-E data incorporated into Exiobase HSUTs
