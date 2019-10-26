@@ -1,10 +1,10 @@
 # System-model (mojo)
-The system model frame work. Turning the raw data into into a computational structure.
+This repository describes the making of the system model framework, i.e. turning the raw data into into a computational structure.
 
-This project will be take care of all the modelling choices and data reconciliation between the different data sources. As the very core it will take the raw data from the rdf database and turn it into a computational structure (such as an A-matrix). It will then export it again to the rdf database.
+This system model deals with of all the modelling choices and data reconciliation between the different data sources. The very core takes the raw data from the rdf database and turn it into a computational structure (such as an A-matrix). Then, it exports it again to the rdf database.
 
 ## Hackathon objective (initial version of Bonsai)
-For the purpose of the  Barcelona hackathon this will need to update the electricity information in EXIOBASE with the information from the B-entso project. For the first simple model we will use [pySUT](https://github.com/stefanpauliuk/pySUT) to construct an input-output table from supply and use tables (SUTs). pySUT takes numpy arrays (SUTs) as an input and outputs a numpy array A-matrix. 
+For the purpose of the 2019 Barcelona hackathon, the electricity information in EXIOBASE needs to be updated with the information from the B-entso project. For the first simple model we use [pySUT](https://github.com/stefanpauliuk/pySUT) to construct an input-output table from supply and use tables (SUTs). pySUT takes numpy arrays (SUTs) as an input and outputs a numpy array A-matrix. 
 
 For this we will need to following:
 * Function to query exiobase rdf data and turn it into supply use tables. (main work)
@@ -22,12 +22,21 @@ For the initial version of Bonsai, it has been decided to use the [Exiobase hybr
 
 With regard to hybrid tables, the choice on the construct to be used [Majeau-Bettez et al. (2014)](https://doi.org/10.1111/jiec.12142)  is very limited. The industry technology assumption is not an option since an activity may produce outputs in different units. Product technology assumption and by-product technology assumptions give the same results [Suh et al. (2010)]( https://doi.org/10.1111/j.1530-9290.2010.00235.x), unless negative values in the IOTs are manipulated. Usually, this manipulation of negatives is not implemented in LCA. Therefore, the by-product technology results to be the best choice for the current version of Bonsai. However, in order to give more choice to the user, the monetary version of Exiobase could still be an option of further versions. The monetary version of Exiobase provides the product by product (pxp) and industry by industry (ixi) IOTs. The monetary IOTs adopt the industry technology assumption, which is an allocation method.
 
-So, to resume, the Bonsai user may have three choices:
-    1. hybrid tables with by-product technology assumption (substitution method) 
-    2. monetary ixi IOTs (with allocation method)
-    3. monetary pxp IOTs (with allocation method)
+Resuming, the Bonsai user may have three choices:
+
+ 1. hybrid tables with by-product technology assumption (substitution method) 
+ 2. monetary ixi IOTs (with allocation method)
+ 3. monetary pxp IOTs (with allocation method)
        
 However, the current version of mojo only deals with bullet 1.
+
+### Why flows do not have a location
+In Supply & Use tables the flows and flow Objects do not need to be specified by location, since they obtain that from the location of the activity.
+In a Direct Requirements Table the Supply data and the Use data are combined by applying some specific assumptions about how activities supply each other. In other words, each flow is connected to both a supplying and a using activity. The flows still do not need to be specified by location, since this is given by the supplying and using activities. Several assumptions can be be made for linking of activities and flows. Different Requirement Tables can be produced simply by changing the linking assumptions.
+
+Yet, in the EXIOBASE hybrid Use table, we find that Flows have been provided with (country of origin) location, because EXIOBASE hybrid Use table combines data from two original data sources: The national Supply & Use tables and a balanced version of the international bi-lateral trade data. For transparency reasons, as well as to allow flexibility of use, is important to keep the original Supply & Use data separate from the linking assumptions. To do so the EXIOBASE Hybrid tables shall be de-constructed into the original national Supply & Use tables and a trade matrix, both of which can be stored in the BONSAI format, without the need to assign a location to any flow. The original Supply & Use data is simply obtained by summing all uses of each flow object into one flow. The trade information is preserved by taking the off-diagonal trade flows from the EXIOBASE Use table and placing them in the separate trade matrix.
+
+This is furhter explained in the [docs](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Why_flows_dont_need_location.md) attached to this repository, in the file [Why do flows not have a location](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Why_flows_dont_need_location.md) and in the related [excel file](https://github.com/BONSAMURAIS/mojo/blob/master/docs/Why_flows_%20dont_have_%20location.xlsx).
 
 ### Aggregation and generation of global markets for exclusive by-products
 
