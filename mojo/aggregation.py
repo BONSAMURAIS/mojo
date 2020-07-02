@@ -5,7 +5,7 @@ import pandas as pd
 from mojo_logger import LogMessage
 import sys
 
-def aggregate(v,u,aggregation_matrix, logger):
+def aggregate_row(v,u,aggregation_matrix, logger): #SM:this funtion aggregates only rows
     """Aggreagte supply and use tables through multiplication with
     aggregation matrix. All of the tables are considered to be of the format
     (products x industries).
@@ -27,12 +27,25 @@ def aggregate(v,u,aggregation_matrix, logger):
     return vagg, uagg
 
 
+'''SM:this procedure gives different weight to the aggregation coeff
+in order to generalize this procedure,besides what has been already included below, we would need
+a vector where the different weights are inserted. I think this can be an input for the function
 
-def get_aggregation_matrix(path_name, agg_file, cal_file,
+>>>for example:
+cal_val_ratios=np.array([[0.0387/0.048,0.00274/0.048,0.00706/0.048,0.0387/0.048,0.0504/0.048]])
+prod_code=np.array(['p.40.02a','p.40.02b','p.40.02c','p.40.02d','p.40.02e'])
+act_code=np.array(['A_MGWG'])
+new_key=pd.DataFrame(columns=act_code, index=prod_code,data=cal_val_ratios.T)
+
+
+agg_mat[agg_mat.where(new_key>0)>0]=new_key
+'''
+
+def get_aggregation_matrix(path_name, agg_file, new_key,
                            agg_report_path, agg_report_file,logger):
     """Returns a numpy array which can be used for aggregation
-    For now it aggregates by 'priciple coproducts' so that each industry has
-    one princple product. The products that are aggregated are written out
+    For now it aggregates by 'principle coproducts' so that each industry has
+    one principle product. The products that are aggregated are written out
     to an aggregation report with filename specified by user.
     
     Input:
